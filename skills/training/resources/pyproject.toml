@@ -1,0 +1,15 @@
+[project]
+name = "PowerPredictor-training"
+version = "0.1.0"
+description = "PowerPredictor model training with MLX and dataset utilities"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mlx>=0.32.0",
+    "safetensors==0.8.0",
+    "transformers>=5.4.0",
+    "numpy>=1.26.2",
+    "pandas>=2.3.3",
+    "datasets==5.0.1",
+    "pillow>=12.3.0"
+]

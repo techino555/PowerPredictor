@@ -1,0 +1,106 @@
+PowerPredictor
+Copyright (c) 2026 Hidenobu Ishikawa (Transbiz)
+
+PowerPredictor as a whole is distributed under the MIT License (see LICENSE). It
+incorporates third-party software and assets that remain under their own
+licenses, listed below. Those licenses continue to apply to those portions.
+Users must independently review and comply with each third-party license before
+using, distributing, or modifying PowerPredictor.
+
+
+================================================================================
+DINOv3 License (Meta custom license)
+================================================================================
+
+--------------------------------------------------------------------------------
+DINOv3
+https://github.com/facebookresearch/dinov3
+Copyright (c) Meta Platforms, Inc. and affiliates
+Licensed under the DINOv3 License (see LICENSE.md in the DINOv3 repository).
+
+DINOv3 is Meta's self-supervised vision transformer model. The model weights
+and code are released under a custom DINOv3 License that permits commercial
+use, provided that proper attribution (e.g. "Built with DINOv3") is included
+in any redistribution or derivative work.
+
+ACCESS REQUIREMENT: To obtain the DINOv3 model weights, you must submit an
+access request via Meta's official form:
+https://ai.meta.com/resources/models-and-libraries/dinov3-downloads/
+
+PowerPredictor uses DINOv3 for visual feature extraction. Users of
+PowerPredictor must independently accept Meta's DINOv3 License and obtain the
+model weights through the official channel above.
+
+--------------------------------------------------------------------------------
+
+
+================================================================================
+MIT License
+================================================================================
+
+--------------------------------------------------------------------------------
+MLXDINOv3
+https://github.com/vincentamato/MLXDINOv3
+Copyright (c) Vincent Amato
+Licensed under the MIT License.
+
+MLXDINOv3 is a Swift port of Meta's DINOv3 using the MLX Swift framework,
+optimized for Apple Silicon. The repository code is licensed under the MIT
+License. Note that the pretrained model weights remain subject to Meta's
+DINOv3 License (see above).
+
+PowerPredictor uses MLXDINOv3 for inference of DINOv3 on Apple Silicon devices.
+
+MIT License text:
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Niconico Commons (ニコニ・コモンズ)
+================================================================================
+
+--------------------------------------------------------------------------------
+Scouter Play Sound (スカウター)
+https://commons.nicovideo.jp/works/nc116296
+Author: ハハッワロス (Hahat Warosu)
+Licensed under the Niconico Commons Terms of Use.
+
+A 3-second sound effect (.wav) mimicking the scouter power-level measurement
+sound. PowerPredictor uses this audio asset as a notification sound effect.
+
+USAGE TERMS: This asset is hosted on Niconico Commons and its use is governed
+by the platform's Terms of Use (利用規約) and the creator's specified
+permissions. Users must:
+
+  1. Review the license terms on the asset page before use:
+     https://commons.nicovideo.jp/works/nc116296
+
+  2. If publishing on Niconico-connected platforms, register the work as a
+     child work (親作品登録) linked to nc116296.
+
+  3. Comply with any restrictions on commercial use, modification, or
+     redistribution as specified by the creator on the asset page.
+
+Users of PowerPredictor must independently verify and comply with the Niconico
+Commons terms for this asset.
+
+--------------------------------------------------------------------------------
