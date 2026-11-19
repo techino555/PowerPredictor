@@ -5,7 +5,11 @@ This project is an iOS application that extracts feature representations from im
 \*
 ©BIRD STUDIO/SHUEISHA, FUJI TV, TOEI ANIMATION
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+[![Swift](https://img.shields.io/badge/Swift-6.0-F05138.svg?style=flat-square&logo=swift&logoColor=white)](https://swift.org)
+[![iOS](https://img.shields.io/badge/iOS-17.0+-000000.svg?style=flat-square&logo=apple&logoColor=white)](https://developer.apple.com/ios/)
+[![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20macOS-lightgrey.svg?style=flat-square)]()
+[![MLX Swift](https://img.shields.io/badge/MLX-Swift-FF4F00.svg?style=flat-square)](https://github.com/ml-explore/mlx-swift)
 
 ## Demo
 
